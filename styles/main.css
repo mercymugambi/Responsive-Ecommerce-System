@@ -1,0 +1,406 @@
+/*TABLE OF CONTENTS
+1. Background image
+2. suspended page section
+3. Top navbar
+4. 
+
+*/
+
+/*background image applied to the body*/
+body {
+    /*background-color: #f4f0ec;*/
+    background-image: url("images/bg/body-bg.jpg");
+     /*Full height */
+    height: 1000%;
+    width: 100%;
+    /* Centers and scales the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   /*suspended page created with margins*/
+   #page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f4f0ec;
+   }
+   /*wrapper for both top and bottom navbar*/
+
+   .wrapper{
+    float:left;
+    width:100%;
+    position: relative;
+   }
+   /*top navbar starts here*/
+
+   .wrapper .top_nav{
+    margin-top: 0px;
+    width: 100%;
+    height: 20px;
+    background: #32CD32;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .wrapper .top_nav .left{
+    display: flex;
+    align-items: center;
+  }
+  /*Blinking text applied to navbar*/
+  .wrapper .top_nav .left #blink{
+      font-size: 20px;
+      font-weight: bold;
+      color: 	#FF0000;
+      transition: 0.5s;
+      margin-top: 5px;
+  }
+  
+  .wrapper .top_nav .right{
+    display: flex;
+  }
+  
+  .wrapper .top_nav .right a{
+    margin: 0px 12px;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+/*linking of account dropdown menu css*/
+.wrapper .nav-item .navlink{
+  color: black;
+}
+.wrapper .nav-item .navlink:hover{
+  color: black;
+}
+.wrapper .dropdown-menu{
+  margin-top: 5px;
+  background: #212222;
+  height: auto;
+}
+.wrapper .dropdown span{
+  font-size: 10px;
+  margin-left: 3px;
+}
+.wrapper .dropdown .dropdown-menu a{
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.wrapper .dropdown .dropdown-menu a:hover{
+  background: #32CD32;
+  width: 60%;
+}
+
+/*Bottom nav Starts here*/
+.wrapper .bottom_nav{
+  background-color: #ffffff;
+  align-items: center;
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 0 15px;
+  margin-top: 0px;
+}
+.wrapper .bottom_nav .scroll{
+  color: #000000;
+  font-size: 18px;
+}
+
+/* Stardand nav to create vertical bar on bottom navbar */
+.standard-nav{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  float: right;
+}
+.standard-nav li{
+  border-right: 2px solid #32CD32;
+  display: inline-block;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+.standard-nav li:last-child {
+  border-right:0;
+} 
+.standard-nav li > a{
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  line-height:19px;
+}
+
+/* col sections for side nav, slider and right col*/
+.dark-nav {
+  background-color: #f4f0ec;
+  width: 100%;
+}
+
+.dark-nav .row{
+  margin-left: 2px;
+}
+.dark-nav .row .col-2 .categories h5{
+  color: #32CD32;
+  font-size: 35px;
+}
+.dark-nav .row .col-2 .categories a{
+  color: #a9a9a9;
+  font-size: 20px;
+}
+
+.col-2{
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+.col-2 .nav-link{
+  color: #838996;
+}
+.col-2 .nav-link :hover{
+  color: #838996;
+}
+.col-7{
+  margin-top: 5px;
+}
+.col-3{
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.col-3 .item1{
+  margin-top: 1px;
+}
+
+/*testimonials starts here */
+.col-sm-2 #carousel-inner .carousel-item .colon {
+  margin: 30px 0 20px 0;
+}
+.col-sm-2 #carousel-inner .carousel-item .team {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  padding: 1px; 
+  margin-bottom: 5px;
+}
+.section .row{
+  margin-left: 2px;
+}
+/*banner sidebar*/
+.section .row .banner{
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 0;
+}
+/*Footer comes in here*/
+.footer-distributed{
+	background: #000000;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #32CD32;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #32CD32;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  blue;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #32CD32;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+   
+   

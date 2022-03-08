@@ -1,0 +1,15 @@
+**Log on to codeastro.com for more projects!***
+
+**Database Name: ecom_store**
+
+**Developed by Yasser Dalouzi**
+
+**Recommended PHP Version 5.6 and Newer**
+
+
+**Admin Panel: /admin_area **
+
+**Admin Login Details**
+
+Username: admin@mail.com
+Password: Password@123
