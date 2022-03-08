@@ -741,7 +741,7 @@ $product_label
 
 <div class="box same-height"><!-- box same-height Starts -->
 
-<
+
 
 </div><!-- box same-height Ends -->
 
