@@ -133,8 +133,8 @@ background:#e7e7e7;
 
 .btn-primary{
 color:rgb(255, 255, 255);
-background-color:rgb(79, 191, 168);
-border-color:rgb(65, 179, 156);
+background-color:#32CD32;
+border-color:#32CD32;
 }
 
 #search .navbar-form{
@@ -631,7 +631,7 @@ margin: 40px 50px 10px -71px;
 color: #fff;
 font-size:18px;
 font-weight:bold;
-background-color: #337ab7;
+background-color: #32CD32;
 text-shadow: 0px 1px 2px #bbb ;
 
 }
@@ -649,7 +649,7 @@ left: 0px;
 top: 100%;
 border-width : 5px 10px;
 border-style: solid;
-border-color: #2d7b6b #2d7b6b transparent transparent;
+border-color: #32CD32 #32CD32 transparent transparent;
 }
 
 .label.sale {

@@ -1353,12 +1353,12 @@ button, input, select, textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #32CD32;
   text-decoration: none
 }
 
 a:focus, a:hover {
-  color: #23527c;
+  color: #32CD32;
   text-decoration: underline
 }
 
@@ -3280,14 +3280,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4
+  background-color: #32CD32;
+  border-color: #32CD32
 }
 
 .btn-primary.focus, .btn-primary:focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40
+  background-color: #32CD32;
+  border-color: #32CD32
 }
 
 .btn-primary:hover {

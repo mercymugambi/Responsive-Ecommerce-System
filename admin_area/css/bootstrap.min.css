@@ -1,10 +1,4 @@
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
     font-family: sans-serif;
@@ -3785,21 +3779,21 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
+    background-color: #32CD32;
+    border-color: #32CD32
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    background-color: #286090;
-    border-color: #122b40
+    background-color: #32CD32;
+    border-color: #32CD32
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74
+    background-color: #32CD32;
+    border-color: #32CD32
 }
 
 .btn-primary.active,
@@ -5502,12 +5496,12 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-    background-color: #222;
+    background-color: #32CD32;
     border-color: #080808
 }
 
 .navbar-inverse .navbar-brand {
-    color: #9d9d9d
+    color: #ffffff
 }
 
 .navbar-inverse .navbar-brand:focus,
@@ -5521,7 +5515,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #9d9d9d
+    color: #080808
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
@@ -6826,8 +6820,8 @@ button.list-group-item-danger.active:hover {
 
 .panel-primary>.panel-heading {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7
+    background-color: 	#32CD32;
+    border-color: 	#32CD32
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {

@@ -57,7 +57,6 @@ padding:0 15px;
 
 .top-nav>li{
 display:inline-block;
-float:left;
 
 }
 
@@ -65,7 +64,7 @@ float:left;
 padding-top:15px;
 padding-bottom:15px;
 line-height:20px;
-color:#999;
+color:#ffffff;
 }
 
 .top-nav>li>a:hover,
@@ -83,7 +82,7 @@ top:51px;
 width:255px;
 border-radius:0;
 overflow-y:auto;
-background-color: #222;
+background-color: 	#32CD32;
 bottom:0;
 overflow-x:hidden;
 padding-bottom:40px;

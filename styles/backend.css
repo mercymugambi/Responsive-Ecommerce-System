@@ -496,7 +496,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link:hover {
-  color: #00c8c8
+  color: #32CD32
 }
 
 .page-header__bottomline .main-nav .categories__link i {
@@ -507,7 +507,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link--active {
-  color: #00c8c8
+  color: #32CD32
 }
 
 .page-header .dropdown {
